@@ -1,0 +1,33 @@
+body {
+  background-color: #121212 !important; /* 深色背景 */
+  color: #ffffff !important; /* 文字颜色 */
+}
+
+h2 {
+  font-size: 32px; /* 增加标题大小 */
+}
+
+h3 {
+  font-size: 24px; /* 增加子标题大小 */
+  margin: 0; /* 去掉所有边距 */
+  padding-bottom: 5px; /* 适当的底部填充，可以微调间距 */
+}
+
+input {
+  font-size: 18px; /* 输入框文本大小 */
+  padding: 10px; /* 增加输入框内边距 */
+}
+
+button {
+  font-size: 18px; /* 按钮文本大小 */
+  padding: 10px 20px; /* 增加按钮内边距 */
+  background-color: #6200ea; /* 按钮背景颜色 */
+  color: #ffffff; /* 按钮文字颜色 */
+  border: none; /* 去掉边框 */
+  border-radius: 5px; /* 增加按钮圆角 */
+  cursor: pointer; /* 鼠标悬停时的指针 */
+}
+
+button:hover {
+  background-color: #3700b3; /* 悬停效果 */
+}
